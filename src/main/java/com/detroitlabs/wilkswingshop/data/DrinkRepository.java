@@ -14,7 +14,7 @@ public class DrinkRepository {
             new Drink("Wine", "White", 6),
             new Drink("Beer", "Lager", 4),
             new Drink("Beer", "IPA", 5),
-            new Drink("Beer", "")
+            new Drink("Beer", "Red Ale", 4)
 
-    )
+    );
 }
