@@ -29,7 +29,7 @@ public class Drink {
         this.price = price;
     }
 
-    public Drink(String type, String category, double price) {
+    public Drink(String category, String type, double price) {
         this.type = type;
         this.category = category;
         this.price = price;
