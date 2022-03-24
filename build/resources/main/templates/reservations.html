@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" th:href="@{/app.css}" />
-    <title>Title</title>
+    <title>Reservations</title>
 </head>
 
 <body>
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="pull-left">
+            <img src="/images/logo.jpeg" alt="logo" class="homelogo"></a></li>
         <li><a href="/foodmenu">Food Menu</a></li>
         <li><a href="/drinkmenu">Drink Menu</a></li>
         <li><a href="/contactus">Contact Us</a></li>
@@ -17,8 +18,8 @@
     </ul>
 </nav>
 <h1>Reservations</h1>
-<p>We accept reservations for parties of 6 or more</p>
-<form>
+<h2>We accept reservations for parties of 6 or more</h2>
+<form style="text-align: center">
     <p><input type="text" placeholder="Name"></p>
     <p><input type="number" placeholder="Party Size"></p>
     <p><input type="datetime-local" placeholder="Date and Time"></p>

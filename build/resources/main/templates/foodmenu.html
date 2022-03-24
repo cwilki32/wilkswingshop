@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8"/>
 
-    <title>Title</title>
+    <title>Food Menu</title>
 
 </head>
 <body>
 <nav class="nav-bar">
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="pull-left">
+            <img src="/images/logo.jpeg" alt="logo" class="homelogo"></a></li>
         <li><a href="/foodmenu">Food Menu</a></li>
         <li><a href="/drinkmenu">Drink Menu</a></li>
         <li><a href="/contactus">Contact Us</a></li>
@@ -24,11 +25,12 @@
             <a th:href="'/food/' + ${food.name}" th:text="${food.name}"></a>
             <span>.......................................................</span>
             <a th:href="'/food/' + ${food.price}" th:text="${food.price}"></a>
-            <!--            <img th:src="@{'/gifs/' + ${gif.name} + '.gif'}" alt="Favorite Gifs"/>-->
-            <!--            <a href="#" th:class="(${gif.favorite} ? 'un' : '') + 'mark favorite'"></a>-->
             </a>
         </div>
     </div>
+    <p>*** Indicates Customer Favorite </p>
+    <p>!!DISCLAIMER Punch Yo Momma hot requires a waiver!!</p>
+    <p>If you can complete the challenge, you will be featured on our wall</p>
 </div>
 </body>
 </html>

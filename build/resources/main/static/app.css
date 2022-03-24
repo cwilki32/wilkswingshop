@@ -1,14 +1,19 @@
 body {
-    background-color: #f5efed;
+    background-color: #efd09e;
     font-family: Georgia;
 }
 
 h1 {
-    color: #5b5b5b;
+    color: #07004d;
     text-align: center;
 }
 
 h2 {
+    color: #07004d;
+    text-align: center;
+}
+
+h3 {
     color: #5b5b5b;
     text-align: center;
 }
@@ -20,7 +25,7 @@ img {
 }
 
 p {
-    color: #1b2cc1
+    color: #07004d
 }
 
 .column {
@@ -104,4 +109,9 @@ li a:hover {
 
 .checked {
     color: orange;
+
+}
+.homelogo {
+    height:25px;
+    width:auto;
 }

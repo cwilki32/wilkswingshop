@@ -2,94 +2,15 @@
 <html lang="en" xmlns:th="http://www.thymleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" th:ref="@{/app.css}" />
-    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/app.css}" />
+    <title>Drink Menu</title>
 
 </head>
-<style>
-    .menu-container{
-        font-family: Georgia;
-        background-color: white;
-        color: red;
-        margin-left:250px;
-        margin-right:250px;
-        padding: 5px;
-        text-align: center;
-    }
-    h1 {
-        text-align:center;
-    }
-    body {
-        background-color: #f5efed;
-        font-family: Georgia;
-    }
-
-    h1 {
-        color: #5b5b5b;
-        text-align: center;
-    }
-    h2 {
-        color: #5b5b5b;
-        text-align:center;
-    }
-
-    img {
-        height: 200px;
-        width: auto;
-        border-radius: 4px;
-    }
-
-    p {
-        color: #1b2cc1;
-        text-align:center;
-    }
-
-    .column {
-        float: left;
-        width: 33%;
-        padding: 1x;
-        text-align:center;
-    }
-
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #7d7c7a;
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    /* Change the link color on hover */
-    li a:hover {
-        background-color: #1b2cc1;
-    }
-    .comment {
-
-        position: relative;
-        margin: 20px auto;
-    }
-</style>
 <body>
 <nav>
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="pull-left">
+            <img src="/images/logo.jpeg" alt="logo" class="homelogo"></a></li>
         <li><a href="/foodmenu">Food Menu</a></li>
         <li><a href="/drinkmenu">Drink Menu</a></li>
         <li><a href="/contactus">Contact Us</a></li>
