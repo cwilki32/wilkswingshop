@@ -1,95 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
-    <link rel="stylesheet" href="../static/app.css">
+    <link rel="stylesheet" th:href="@{/app.css}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-    body {
-        /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV2HVWDcDnOLHpwbNw2yvpwrMYH4tJ70HwxA&usqp=CAU");*/
-        /*background-repeat:no-repeat;*/
-        /*background-size: cover;*/
-        background-color: #f5efed;
-        font-family: Georgia;
-    }
 
-    h1 {
-        color: #5b5b5b;
-        text-align: center;
-    }
-    h2 {
-        color: #5b5b5b;
-        text-align:center;
-    }
-
-    img {
-        height: 200px;
-        width: auto;
-        border-radius: 4px;
-    }
-
-    p {
-        color: #1b2cc1;
-        text-align:center;
-    }
-
-    .column {
-        float: left;
-        width: 33%;
-        padding: 1x;
-        text-align:center;
-    }
-
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #7d7c7a;
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    /* Change the link color on hover */
-    li a:hover {
-        background-color: #1b2cc1;
-    }
-    .comment {
-
-        position: relative;
-        margin: 20px auto;
-        text-align:center;
-        padding: 5px;
-    }
-    .dtb {
-        height: 50px;
-        width: auto;
-        align: bottom;
-        padding: 10px;
-    }
-    .checked {
-        color: orange;
-    }
-
-
-</style>
 
 <body>
 <div>

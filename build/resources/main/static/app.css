@@ -5,11 +5,18 @@ body {
 
 h1 {
     color: #5b5b5b;
+    text-align: center;
+}
+
+h2 {
+    color: #5b5b5b;
+    text-align: center;
 }
 
 img {
     height: 200px;
-    width: 200px;
+    width: auto;
+    border-radius: 4px;
 }
 
 p {
@@ -18,8 +25,9 @@ p {
 
 .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 33%;
+    padding: 1x;
+    text-align: center;
 }
 
 .row::after {
@@ -27,6 +35,7 @@ p {
     clear: both;
     display: table;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,6 +60,48 @@ li a {
 li a:hover {
     background-color: #1b2cc1;
 }
+
 .nav-bar {
 
+}
+
+
+.half {
+    width: 50%;
+    display: table-cell;
+}
+
+.social {
+    left: 1000px;
+    height: 50px;
+    width: auto;
+}
+
+.menu-container {
+    font-family: Georgia;
+    background-color: white;
+    color: red;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 5px;
+    text-align: center;
+}
+
+.comment {
+
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.dtb {
+    height: 50px;
+    width: auto;
+    align: bottom;
+    padding: 10px;
+}
+
+.checked {
+    color: orange;
 }

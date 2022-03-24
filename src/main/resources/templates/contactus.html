@@ -1,45 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymleaf.org">
+<link rel="stylesheet" th:href="@{/app.css}"/>
 <head>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" th:ref="@{/app.css}" />
     <title>Title</title>
 
 </head>
-<style>
-    h1 {
-        color: #5b5b5b;
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #7d7c7a;
-    }
 
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    /* Change the link color on hover */
-    li a:hover {
-        background-color: #1b2cc1;
-    }
-    .half {
-        width: 50%;
-        display: table-cell;
-    }
-</style>
 <body>
 <nav>
     <ul>
@@ -51,6 +18,11 @@
     </ul>
 </nav>
 <h1>Contact Us</h1>
+<div>
+    <img class="social"
+         src="https://e7.pngegg.com/pngimages/921/1023/png-clipart-facebook-twitter-and-instagram-logo-social-media-facebook-computer-icons-social-networking-service-like-us-on-facebook-text-logo.png"
+         alt="social logo"/>
+</div>
 <img src="https://www.w3schools.com/w3css/map.jpg" alt="map" style="width:25%">
 <p>We're located at the corner of 5th and Main in Berkley, MI</p>
 <p>Call us at 813-555-5555</p>
