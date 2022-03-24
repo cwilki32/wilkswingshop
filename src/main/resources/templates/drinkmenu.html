@@ -2,26 +2,22 @@
 <html lang="en" xmlns:th="http://www.thymleaf.org">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:ref="@{/app.css}" />
     <title>Title</title>
+
 </head>
 <body>
-<a href="/">
-    <button>Insert Cool Logo Here</button>
-</a>
-<a href="/foodmenu">
-    <button>Food Menu</button>
-</a>
-<a href="/drinkmenu">
-    <button>Drink Menu</button>
-</a>
-<a href="/contactus">
-    <button>Contact Us</button>
-</a>
-<a href="/reservations">
-    <button>Reservations</button>
-</a>
+<nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/foodmenu">Food Menu</a></li>
+        <li><a href="/drinkmenu">Drink Menu</a></li>
+        <li><a href="/contactus">Contact Us</a></li>
+        <li><a href="/reservations">Reservations</a></li>
+    </ul>
+</nav>
 <h1>Drink Menu</h1>
-<div class="drink container">
+<div class="menu container">
     <div class="row">
         <div th:each= "drink: ${drinkmenu}" class="col s12 l4">
             <a th:href="'/drink/' + ${drink.type}" th:text="${drink.type}"></a>

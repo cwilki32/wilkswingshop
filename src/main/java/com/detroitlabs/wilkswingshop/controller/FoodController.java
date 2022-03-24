@@ -17,17 +17,17 @@ public class FoodController {
     private FoodRepository foodRepository;
 
     @RequestMapping("/")
-    public String displayHome(){
+    public String displayHome() {
         return "home";
     }
 
     @RequestMapping("/contactus")
-    public String displayContact(){
+    public String displayContact() {
         return "contactus";
     }
 
     @RequestMapping("/reservations")
-    public String takeReservation(){
+    public String takeReservation() {
         return "reservations";
     }
 
