@@ -22,6 +22,7 @@ img {
     height: 200px;
     width: auto;
     border-radius: 4px;
+    opacity: 0.8;
 }
 
 p {
@@ -46,7 +47,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #7d7c7a;
+    background-color: #07004d;
 }
 
 li {
@@ -72,7 +73,8 @@ li a:hover {
 
 
 .half {
-    width: 50%;
+    text-align:center;
+    width: 70%;
     display: table-cell;
 }
 
@@ -86,8 +88,8 @@ li a:hover {
     font-family: Georgia;
     background-color: white;
     color: red;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 280px;
+    margin-right: 280px;
     padding: 5px;
     text-align: center;
 }
