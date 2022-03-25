@@ -30,12 +30,20 @@ public class FoodRepository {
 
     );
 
-    public List<Food> showFood() {
+    public List<Food> showFood() {//refactoring opportunity to split by food category on website
         List<Food> foodList = new ArrayList<>();
         for (Food food:FOOD_LIST) {
             foodList.add(food);
         }
         return foodList;
+    }
+
+    public String getEntree(int i) {
+        List<Food> foodList = new ArrayList<>();
+        for (Food food:FOOD_LIST) {
+            foodList.add(food);
+        }
+      return foodList.get(i).getName();
     }
 
 }

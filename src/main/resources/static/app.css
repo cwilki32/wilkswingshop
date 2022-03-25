@@ -1,21 +1,24 @@
 body {
     background-color: #efd09e;
-    font-family: Georgia;
+    font-family: Montserrat;
 }
 
 h1 {
     color: #07004d;
     text-align: center;
+    size:50px;
 }
 
 h2 {
     color: #07004d;
     text-align: center;
+    padding: 25px;
 }
 
 h3 {
     color: #5b5b5b;
     text-align: center;
+    padding: 25px;
 }
 
 img {
@@ -74,7 +77,7 @@ li a:hover {
 
 .half {
     text-align:center;
-    width: 70%;
+    width: 72%;
     display: table-cell;
 }
 
@@ -88,14 +91,13 @@ li a:hover {
     font-family: Georgia;
     background-color: white;
     color: red;
-    margin-left: 280px;
-    margin-right: 280px;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 5px;
     text-align: center;
 }
 
 .comment {
-
     position: relative;
     margin: 20px auto;
     text-align: center;
@@ -117,3 +119,24 @@ li a:hover {
     height:25px;
     width:auto;
 }
+.footer{
+    background-color:#07004d;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    padding: 5px;
+
+}
+html, body{
+    height:100%;
+    margin:0;
+}
+.wrapper {
+    min-height:100%;
+    margin-bottom:-30px;
+}
+.footer,
+.push{
+    height:30px;
+}
+
